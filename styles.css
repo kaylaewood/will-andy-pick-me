@@ -1,7 +1,6 @@
 
 * {
   font-family: 'Open Sans', sans-serif;
-  border: 1px solid red;
 }
 
 body {
@@ -69,14 +68,16 @@ main {
   display: none;
 }
 
-#clear-button {
-  background-color: #DE4841;
+.clear-button {
+  background-color: #D0CDCD;
   border: none;
   color: #FFFFFF;
   margin: 35px 0 0 250px;
 }
 
-/* clear diabled #D0CDCD */
+.enable-button {
+  background-color: #DE4841;
+}
 
 .show-text {
   display: block;
