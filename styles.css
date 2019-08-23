@@ -36,6 +36,7 @@ main {
  border: none;
  font-size: 18px;
  margin: 10px 0 4px 0;
+ text-align: center;
 }
 
 #submit-button {
@@ -52,18 +53,18 @@ main {
   background-color: #1C3455;
 }
 
-#eight-ball-img {
+.eight-ball-img {
   width: 75px;
   margin: 20px 0;
 }
 
-#question-asked {
+.question-asked {
   text-align: center;
   font-style: italic;
   display: none;
 }
 
-#response {
+.response {
   font-weight: bold;
   display: none;
 }
@@ -76,3 +77,11 @@ main {
 }
 
 /* clear diabled #D0CDCD */
+
+.show-text {
+  display: block;
+}
+
+.hide-img {
+  display: none;
+}
