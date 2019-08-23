@@ -1,12 +1,78 @@
-/* font-family: 'Open Sans', sans-serif; */
-/* font-family: 'Open Sans', sans-serif; */
 
-/*
-COLORS
-H1, Get answer button, text in input field: #2B4E80;
-Get answer button disabled: #607AA0;
-Get answer button hover: #1C3455;
-light blue background: #E6ECF4;
-clear button: #DE4841;
-clear button disabled: #D0CDCD
-*/
+* {
+  font-family: 'Open Sans', sans-serif;
+  /* border: 1px solid red; */
+}
+
+body {
+   text-align: center;
+}
+
+h1 {
+ color: #2B4E80;
+ text-align: center;
+}
+
+main {
+ display: flex;
+ justify-content: center;
+ width: 510px;
+ margin: 0 auto;
+ align-items: center;
+}
+
+.left-box {
+  background-color: #E6ECF4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 260px;
+  margin: 0 20px 0 0;
+}
+
+#text-box {
+ width: 275px;
+ border: none;
+ font-size: 18px;
+ margin: 10px 0 4px 0;
+}
+
+#submit-button {
+ background-color: #607AA0;
+ border: none;
+ width: 275px;
+ color: #FFFFFF;
+ margin: 6px;
+ font-size: 16px;
+ height: 30px;
+}
+
+#submit-button:hover {
+  background-color: #1C3455;
+}
+
+#eight-ball-img {
+  width: 75px;
+  margin: 20px 0;
+}
+
+#question-asked {
+  text-align: center;
+  font-style: italic;
+  display: none;
+}
+
+#response {
+  font-weight: bold;
+  display: none;
+}
+
+#clear-button {
+  background-color: #DE4841;
+  border: none;
+  color: #FFFFFF;
+  margin: 35px 0 0 250px;
+}
+
+/* clear diabled #D0CDCD */
