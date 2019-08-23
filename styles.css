@@ -13,39 +13,39 @@ h1 {
 }
 
 main {
+ align-items: center;
  display: flex;
  justify-content: center;
- width: 510px;
  margin: 0 auto;
- align-items: center;
+ width: 510px;
 }
 
 .left-box {
+  align-items: center;
   background-color: #E6ECF4;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 400px;
   height: 260px;
   margin: 0 20px 0 0;
+  width: 400px;
 }
 
 #text-box {
- width: 275px;
  border: none;
  font-size: 18px;
  margin: 10px 0 4px 0;
  text-align: center;
+ width: 275px;
 }
 
 #submit-button {
  background-color: #607AA0;
  border: none;
- width: 275px;
  color: #FFFFFF;
- margin: 6px;
  font-size: 16px;
  height: 30px;
+ margin: 6px;
+ width: 275px;
 }
 
 #submit-button:hover {
@@ -53,19 +53,19 @@ main {
 }
 
 .eight-ball-img {
-  width: 75px;
   margin: 20px 0;
+  width: 75px;
 }
 
 .question-asked {
-  text-align: center;
-  font-style: italic;
   display: none;
+  font-style: italic;
+  text-align: center;
 }
 
 .response {
-  font-weight: bold;
   display: none;
+  font-weight: bold;  
 }
 
 .clear-button {
