@@ -7,12 +7,8 @@ var responsesArr = ["It is certain.", "It is decidedly so.", "Without a doubt.",
 var randomNum = Math.floor(Math.random()*responsesArr.length);
 var clearButton = document.querySelector(".clear-button");
 
-submitButton.addEventListener("mouseover", function() {
-  if (questionInput.value.length == 0) {
-    submitButton.disabled = true;
-  } else {
+questionInput.addEventListener("input", function() {
     submitButton.removeAttribute("disabled");
-  }
 });
 
 submitButton.addEventListener("click", function() {
